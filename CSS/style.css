@@ -1,0 +1,55 @@
+body{
+    margin 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:url(../imagens/body.jpg) no-repeat left top;
+    background-size: cover;
+    
+}
+header{
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 20px;
+}
+h1 {
+    text-align: center;
+}
+main{
+    padding: 0px 20px 0px 20px;
+}
+footer{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 5px;
+    margin-top: 20px;
+    padding: 20px;
+    
+}
+#titulo-1{
+    color: burlywood;
+}
+.titulo{
+    color: coral;
+}
+.table{
+    
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+th, th, tr{
+    
+    padding: 10px;
+    color: cornflowerblue;
+    background-color: rgb(80, 63, 139);
+}
+.caixa{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+    align-self: center;
+    background-color: rgb(71, 10, 83);
+    border-radius: 15px;
+}
